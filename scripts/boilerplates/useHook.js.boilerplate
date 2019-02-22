@@ -1,0 +1,38 @@
+import { useState, useEffect } from 'react'
+
+/**
+ * @typedef  {object}           HookResponse
+ * @property {number}           propNumber - [description]
+ * @property {string}           propString - [description]
+ * @property {function(number)} propFunction - [Function with a number arg]
+ */
+
+/**
+ * @function
+ * @name <%=HOOK_NAME%>
+ * @description React hook description.
+ * @author <%=HOOK_AUTHOR_NAME%> <<%=HOOK_AUTHOR_EMAIL%>>
+ * @license https://tldrlegal.com/license/mit-license MIT
+ * 
+ * @param  {number}  numberVar - [description]
+ * @param  {object}  config - [description]
+ * @param  {number}  [config.numberProp] - [description]
+ * @param  {boolean} [config.booleanProp] - [description]
+ * 
+ * @return {HookResponse} Hook response to be used within your component like props
+ */
+export default function <%=HOOK_NAME%>() {
+  // state
+  const [state, setState] = useState(null)
+
+  useEffect(() => {
+    // didMout and didUpdate
+    return () => {
+      //willUnmount
+    }
+  })
+
+  return {
+    foo: 'bar'
+  }
+}
