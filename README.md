@@ -87,3 +87,5 @@ const Carousel = ({ children, ...config }) => {
 
 export default Carousel
 ```
+
+## Contributors ✨
