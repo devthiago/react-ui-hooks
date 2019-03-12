@@ -1,46 +1,34 @@
 import { renderHook, cleanup, act } from 'react-hooks-testing-library'
 import useTabs from '@hooks/useTabs'
 
-/**
- * Contract
- *  - Track current actuive tab
- *    * Start at 0
- *    * or config value
- *    * Change with select tab
- *    * Not allowing disabled
- *  - Track disabled tabs
- *    * Start at []
- *    * or config value
- *    * Change with disableTab
- *    * and enableTab
- *    * not allowing to disable active
- */
 describe('useTabs()', () => {
   beforeEach(cleanup)
 
-  describe('tracks current active tab', () => {
-    test('starts at 0', () => {
+  describe('activeTab integer response', () => {
+    test('returns 0 when theres no default value', () => {
       const { result } = renderHook(() => useTabs())
       const { activeTab } = result.current
       expect(activeTab).toBe(0)
     })
 
-    test('or with value in config', () => {
+    test('uses the initialTab config value if provided', () => {
       const config = { initialTab: 5 } 
       const { result } = renderHook(() => useTabs(config))
       const { activeTab } = result.current
       expect(activeTab).toBe(5)
     })
+  })
 
-    test('changing with selectTab', () => {
+  describe('when selectTab function response is called', () => {
+    test('activeTab is equal to the selectTab passed parameter', () => {
       const { result } = renderHook(() => useTabs())
       const { selectTab } = result.current
       act(() => selectTab(1))
       const { activeTab } = result.current
       expect(activeTab).toBe(1)
     })
-
-    test('not allowing to use disabled', () => {
+  
+    test('does not change activeTab if called with a disabled index', () => {
       const config = {initialDisabledTabs: [1]}
       const { result } = renderHook(() => useTabs(config))
       const { selectTab } = result.current
@@ -50,29 +38,41 @@ describe('useTabs()', () => {
     })
   })
 
-  describe('tracks current disabled tabs', () => {
-    test('starting at []', () => {
+  describe('disabledTabs array', () => {
+    test('starts at [] by default', () => {
       const { result } = renderHook(() => useTabs())
       const { disabledTabs } = result.current
       expect(disabledTabs).toEqual([])
     })
 
-    test('or with value in config', () => {
+    test('uses the initialDisabledTabs config value if provided', () => {
       const config = { initialDisabledTabs: [3, 4, 5] } 
       const { result } = renderHook(() => useTabs(config))
       const { disabledTabs } = result.current
       expect(disabledTabs).toEqual([3, 4, 5])
     })
+  })
 
-    test('changing with disableTab', () => {
+  describe('disableTab function', () => {
+    test('disables a tab if it is enabled', () => {
       const { result } = renderHook(() => useTabs())
       const { disableTab } = result.current
       act(() => disableTab(1))
       const { disabledTabs } = result.current
       expect(disabledTabs).toEqual([1])
     })
+    
+    test('does not disable the current activeTab', () => {
+      const { result } = renderHook(() => useTabs())
+      const { disableTab } = result.current
+      act(() => disableTab(0))
+      const { disabledTabs } = result.current
+      expect(disabledTabs).toEqual([])
+    })
+  })
 
-    test('allowing enableTab', () => {
+  describe('enableTab function', () => {
+    test('enables a tab if its disabled', () => {
       const config = {initialDisabledTabs: [1]}
       const { result } = renderHook(() => useTabs(config))
       const { enableTab } = result.current
@@ -80,8 +80,8 @@ describe('useTabs()', () => {
       const { disabledTabs } = result.current
       expect(disabledTabs).toEqual([])
     })
-
-    test('when nescessary', () => {
+  
+    test('does nothing when called with an already enabled tab as parameter', () => {
       const config = {initialDisabledTabs: [2]}
       const { result } = renderHook(() => useTabs(config))
       const { enableTab } = result.current
@@ -89,22 +89,25 @@ describe('useTabs()', () => {
       const { disabledTabs } = result.current
       expect(disabledTabs).toEqual([2])
     })
+  })
 
-    test('not allowing to disable active', () => {
-      const { result } = renderHook(() => useTabs())
-      const { disableTab } = result.current
-      act(() => disableTab(0))
-      const { disabledTabs } = result.current
-      expect(disabledTabs).toEqual([])
-    })
-
-    test('offering an isEnabled function', () => {
+  describe('isEnabled function response', () => {
+    let current = null
+  
+    beforeAll(() => {
       const config = {initialDisabledTabs: [1]}
       const { result } = renderHook(() => useTabs(config))
-      const { isEnabled } = result.current
+      current = result.current
+    })
+  
+    test('returns true if tab index is enabled', () => {
+      const { isEnabled } = current
       expect(isEnabled(0)).toBe(true)
+    })
+  
+    test('returns false if tab index is not enabled', () => {
+      const { isEnabled } = current
       expect(isEnabled(1)).toBe(false)
     })
   })
-
 })

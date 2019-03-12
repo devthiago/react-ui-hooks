@@ -21,8 +21,5 @@ module.exports = {
       lines: 90,
       statements: 90
     }
-  },
-  setupFilesAfterEnv: [
-    './config/rtl.setup.js'
-  ]
+  }
 }
