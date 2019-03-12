@@ -1,11 +1,10 @@
-import React from 'react'
-import { renderHook } from '@test-helpers'
+import { renderHook } from 'react-hooks-testing-library'
 import <%=HOOK_NAME%> from '@hooks/<%=HOOK_NAME%>'
 
 describe('<%=HOOK_NAME%>()', () => {
   test('Describe what you are testing', () => {
-    const { getHookPropValue } = renderHook(<%=HOOK_NAME%>)
-    const prop = getHookPropValue('prop')
+    const { result } = renderHook(() => <%=HOOK_NAME%>())
+    const { prop } = result.current
     expect(prop).toBeTruthy()
   })
 })
