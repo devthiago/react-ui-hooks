@@ -94,8 +94,6 @@ export default Carousel
 
 ## Documentation
 
-- [Examples](#)
-- [Styling](#)
 - [Contributing](CONTRIBUTING.md)
 
 ## Contributors
