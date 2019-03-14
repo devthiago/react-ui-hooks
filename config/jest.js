@@ -5,13 +5,10 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     "./src/**/*.{js,jsx}",
-    "!./src/index.js",
-    "./tests/helpers.{js,jsx}"
+    "!./src/index.js"
   ],
   moduleNameMapper: {
-    "^@hooks(.*)$": "<rootDir>/src/hooks$1",
-    "^@test-helpers": "<rootDir>/tests/helpers.js",
-    "^@test-mocks(.*)$": "<rootDir>/tests/mocks$1"
+    "^@hooks(.*)$": "<rootDir>/src/hooks$1"
   },
   coverageDirectory: 'coverage',
   verbose: true,
@@ -24,8 +21,5 @@ module.exports = {
       lines: 90,
       statements: 90
     }
-  },
-  setupFilesAfterEnv: [
-    './config/rtl.setup.js'
-  ]
+  }
 }

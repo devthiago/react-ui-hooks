@@ -2,7 +2,7 @@
   <h1 style="color: #f9ad05;">React UI Hooks</h1>
 </div>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 Simple repository of React hooks for building UI components
 
@@ -102,8 +102,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/5190217?v=4" width="100px;" alt="Thiago Alves Luiz"/><br /><sub><b>Thiago Alves Luiz</b></sub>](http://thiagoalv.es)<br />[🚇](#infra-devthiago "Infrastructure (Hosting, Build-Tools, etc)") [💻](https://github.com/devthiago/react-ui-hooks/commits?author=devthiago "Code") |
-| :---: |
+| [<img src="https://avatars0.githubusercontent.com/u/5190217?v=4" width="100px;" alt="Thiago Alves Luiz"/><br /><sub><b>Thiago Alves Luiz</b></sub>](http://thiagoalv.es)<br />[🚇](#infra-devthiago "Infrastructure (Hosting, Build-Tools, etc)") [💻](https://github.com/devthiago/react-ui-hooks/commits?author=devthiago "Code") | [<img src="https://avatars3.githubusercontent.com/u/28638133?v=4" width="100px;" alt="João Pedro Raskopf"/><br /><sub><b>João Pedro Raskopf</b></sub>](http://lattes.cnpq.br/4287615973321905)<br />[🚇](#infra-jprask "Infrastructure (Hosting, Build-Tools, etc)") [💻](https://github.com/devthiago/react-ui-hooks/commits?author=jprask "Code") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
