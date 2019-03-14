@@ -1,11 +1,10 @@
-import React from 'react'
-import { renderHook } from '@test-helpers'
+import { renderHook } from 'react-hooks-testing-library'
 import useSlider from '@hooks/useSlider'
 
 describe('useSlider()', () => {
   test('Describe what you are testing', () => {
-    const { getHookPropValue } = renderHook(useSlider)
-    const prop = getHookPropValue('prop')
-    expect(prop).toBeTruthy()
+    const { result } = renderHook(() => useSlider())
+    const { activeSlide } = result.current
+    expect(activeSlide).toBe(50)
   })
 })
