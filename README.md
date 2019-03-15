@@ -1,4 +1,7 @@
-# React UI Hooks
+<div align="center">
+  <h1 style="color: #f9ad05;">React UI Hooks</h1>
+</div>
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 Simple repository of React hooks for building UI components
@@ -88,6 +91,10 @@ const Carousel = ({ children, ...config }) => {
 
 export default Carousel
 ```
+
+## Documentation
+
+- [Contributing](CONTRIBUTING.md)
 
 ## Contributors
 
