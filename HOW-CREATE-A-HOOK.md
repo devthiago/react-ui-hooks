@@ -28,7 +28,7 @@ The `generate:hook` command create 3 files:
 - The tests file ***useExample.test.js*** 
 - The documentation file ***useExample.md***
 
-The hook and tests files must to be updated manually, the documentation file can be updated by the `generate:docs` command all at once.
+The hook and tests files must be updated manually, the documentation file can be updated all at once by using the `generate:docs` command .
 
 ------------
 
@@ -56,7 +56,7 @@ yarn generate:hook  useExample
 
 ### Create a new react hook unit test
 
-If you've created your hook manually you can generate the unit test file for it with the command:
+If you've created your hook manually you can generate its unit test file with the command:
 
 ```bash
 npm run generate:test useExample.js
@@ -83,7 +83,7 @@ yarn generate:docs useExample.js
 
 ### Generate docs for all react hooks:
 
-As you update the hooks and tests frequently there's a need to to update the documentation, so you can do it for all of the hooks with:
+As you update the hooks and tests frequently there's a need to update the documentation, so you can do it for all of the hooks with:
 
 ```bash
 npm run generate:docs
@@ -94,4 +94,5 @@ or
 yarn generate:docs
 ```
 
-This command is going to check all of your hooks and hooks tests and generate the documentation!
+This command scans your hooks and its tests to generate the documentation.
+
