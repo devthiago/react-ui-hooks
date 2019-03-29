@@ -95,4 +95,3 @@ yarn generate:docs
 ```
 
 This command scans your hooks and its tests to generate the documentation.
-
