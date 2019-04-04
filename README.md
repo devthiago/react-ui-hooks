@@ -94,6 +94,7 @@ export default Carousel
 
 ## Documentation
 
+- [How to Create a Hook](HOW-CREATE-A-HOOK.md)
 - [Contributing](CONTRIBUTING.md)
 
 ## Contributors

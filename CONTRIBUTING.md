@@ -18,13 +18,12 @@ Contributions are always welcome and we appreciate.
 - `git pull origin master` to ensure you have the latest main code.
 - `git checkout -b name-of-my-branch` to create a branch.
 
-### Make the change
+### Create new approaches or make changes
 
-- Make the changes.
+- Make the changes or create a new Hook (Detailed explanation can be found at [How to Create a Hook](HOW-CREATE-A-HOOK.md)).
 - Save the files and check in the browser.
 - Make the tests.
 - Check if the tests are all passing `yarn test`.
-
 
 ### Push it
 
