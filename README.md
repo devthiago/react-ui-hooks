@@ -112,6 +112,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://www.linkedin.com/in/tauan-tathiell/"><img src="https://avatars0.githubusercontent.com/u/16005211?v=4" width="100px;" alt="Tauan Tathiell"/><br /><sub><b>Tauan Tathiell</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=Lukyhenson" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/elainemattos"><img src="https://avatars1.githubusercontent.com/u/10763483?v=4" width="100px;" alt="Elaine Mattos"/><br /><sub><b>Elaine Mattos</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=elainemattos" title="Documentation">📖</a></td>
     <td align="center"><a href="http://gustavofao.com/"><img src="https://avatars3.githubusercontent.com/u/7588480?v=4" width="100px;" alt="Gustavo Fão Valvassori"/><br /><sub><b>Gustavo Fão Valvassori</b></sub></a><br /><a href="#infra-faogustavo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://about.me/gutofoletto"><img src="https://avatars2.githubusercontent.com/u/1004681?v=4" width="100px;" alt="Guto Foletto"/><br /><sub><b>Guto Foletto</b></sub></a><br /><a href="#review-gutofoletto" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
