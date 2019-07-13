@@ -2,7 +2,7 @@
   <h1 style="color: #f9ad05;">React UI Hooks</h1>
 </div>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/devthiago/react-ui-hooks.svg?branch=master)](https://travis-ci.org/devthiago/react-ui-hooks)
 [![Coverage Status](https://coveralls.io/repos/github/devthiago/react-ui-hooks/badge.svg?branch=master)](https://coveralls.io/github/devthiago/react-ui-hooks?branch=master)
 
@@ -113,6 +113,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
     <td align="center"><a href="https://github.com/elainemattos"><img src="https://avatars1.githubusercontent.com/u/10763483?v=4" width="100px;" alt="Elaine Mattos"/><br /><sub><b>Elaine Mattos</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=elainemattos" title="Documentation">📖</a></td>
     <td align="center"><a href="http://gustavofao.com/"><img src="https://avatars3.githubusercontent.com/u/7588480?v=4" width="100px;" alt="Gustavo Fão Valvassori"/><br /><sub><b>Gustavo Fão Valvassori</b></sub></a><br /><a href="#infra-faogustavo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="http://about.me/gutofoletto"><img src="https://avatars2.githubusercontent.com/u/1004681?v=4" width="100px;" alt="Guto Foletto"/><br /><sub><b>Guto Foletto</b></sub></a><br /><a href="#review-gutofoletto" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/felipelovato"><img src="https://avatars3.githubusercontent.com/u/2296173?v=4" width="100px;" alt="Felipe Lovato Flores"/><br /><sub><b>Felipe Lovato Flores</b></sub></a><br /><a href="#review-felipelovato" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
