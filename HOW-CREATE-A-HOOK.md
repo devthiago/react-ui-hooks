@@ -6,29 +6,29 @@ The purpose of this guide is to help you to create your own UI Hooks.
 
 ### Prerequisites
 
-- Node: any 8.x version.
-- `yarn` or `npm` installed.
-- A clone of the [react-ui-hooks repo](https://github.com/devthiago/react-ui-hooks) on your local machine, following the example:
-`git clone https://github.com/your-username/react-ui-hooks.git`.
+- Node: any 10.x version.
+- `npm` installed.
+- Fork [react-ui-hooks repo](https://github.com/devthiago/react-ui-hooks) (for any contributions).
+- Get the project on your local machine, following the example: `git clone https://github.com/YOUR-GITHUB-USERNAME/react-ui-hooks.git`.
 
 ------------
 
 #### Creating a Hook
 
 - First things first, if you want to create a new hook, you have to give it a name that starts with `use` and then the name of the hook, such as useModal, useSlider, etc.
-- if you try create a hook without this pattern, you'll get an error.
+- If you try to create a hook without this pattern, you'll get an error.
 
 ------------
 
 #### Create a Hook file
 
-The `generate:hook` command create 3 files:
+The `npm run generate:hook` command create 3 files:
 
 - A hook file ***useExample.js***
 - The tests file ***useExample.test.js*** 
 - The documentation file ***useExample.md***
 
-The hook and tests files must be updated manually, the documentation file can be updated all at once by using the `generate:docs` command .
+The hook and its tests files must be updated manually, the documentation file can be updated all at once by using the `npm run generate:docs` command.
 
 ------------
 
@@ -39,18 +39,14 @@ The hook and tests files must be updated manually, the documentation file can be
 ```bash
 npm run generate:hook useExample
 ```
-or
-```bash
-yarn generate:hook  useExample
-```
 
 - #####  **After you run the command, you'll get:**
 
-***useExample.js*** on src/hooks/ 
+***useExample.js*** on `src/hooks/`
 
-***useExample.test.js*** on src/tests/hooks 
+***useExample.test.js*** on `src/tests/hooks`
 
-***useExample.md*** on docs/
+***useExample.md*** on `docs/`
 
 ------------
 
@@ -60,10 +56,6 @@ If you've created your hook manually you can generate its unit test file with th
 
 ```bash
 npm run generate:test useExample.js
-```
-or
-```bash
-yarn generate:test useExample.js
 ```
 
 ------------
@@ -75,10 +67,7 @@ You can get the doc file of your hook created automaticaly as well!
 ```bash
 npm run generate:docs useExample.js
 ```
-or
-```bash
-yarn generate:docs useExample.js
-```
+
 ------------
 
 ### Generate docs for all react hooks:
@@ -87,11 +76,6 @@ As you update the hooks and tests frequently there's a need to update the docume
 
 ```bash
 npm run generate:docs
-```
-or
-
-```bash
-yarn generate:docs
 ```
 
 This command scans your hooks and its tests to generate the documentation.

@@ -5,11 +5,10 @@ Contributions are always welcome and we appreciate.
 ### Prerequisites
 
 - Git.
-- Node: any 8.x version.
-- `yarn`: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/) or `npm`: See [Npm web site for installation instructions](https://www.npmjs.com/get-npm).
-- A fork of the repo (for any contributions).
-- A clone of the [react-ui-hooks repo](https://github.com/devthiago/react-ui-hooks) on your local machine, following the example:
-`git clone https://github.com/your-username/react-ui-hooks.git`.
+- Node: any 10.x version.
+- `npm`: See [Npm web site for installation instructions](https://www.npmjs.com/get-npm).
+- Fork [react-ui-hooks repo](https://github.com/devthiago/react-ui-hooks) (for any contributions).
+- Get the project on your local machine, following the example: `git clone https://github.com/YOUR-GITHUB-USERNAME/react-ui-hooks.git`.
 
 #### Create a branch
 
@@ -23,12 +22,12 @@ Contributions are always welcome and we appreciate.
 - Make the changes or create a new Hook (Detailed explanation can be found at [How to Create a Hook](HOW-CREATE-A-HOOK.md)).
 - Save the files and check in the browser.
 - Make the tests.
-- Check if the tests are all passing `yarn test`.
+- Check if the tests are all passing `npm test`.
 
 ### Push it
 
 - `git add .`
-- `git commit -m "My message"` (replacing `My message` with a commit message, such as `It Creates a new plugin`) to stage and commit your changes
+- `git commit -m "My message"` (replacing `My message` with a commit message like `It creates a new amazing React ui hook`) to stage and commit your changes
 - `git push my-fork-name name-of-my-branch`
 - Go to the [react-ui-hooks repo](https://github.com/devthiago/react-ui-hooks) and you should see recently pushed branches.
 - Follow GitHub's instructions.
