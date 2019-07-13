@@ -46,6 +46,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gutofoletto",
+      "name": "Guto Foletto",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1004681?v=4",
+      "profile": "http://about.me/gutofoletto",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7
