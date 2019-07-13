@@ -4,6 +4,9 @@
   "description": "React hooks for UI components building",
   "main": "build/index.js",
   "module": "build/index.js",
+  "engines" : {
+    "node" : ">=10.16.0"
+  },
   "scripts": {
     "start": "",
     "test": "jest --config=./config/jest.js",
@@ -33,8 +36,8 @@
   },
   "author": "Thiago Alves <me@thiagoalv.es>",
   "license": "MIT",
-  "homepage": "",
-  "repository": "",
+  "homepage": "https://github.com/devthiago/react-ui-hooks",
+  "repository": "https://github.com/devthiago/react-ui-hooks",
   "keywords": [
     "ui",
     "user",
