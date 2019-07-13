@@ -94,10 +94,10 @@ const Carousel = ({ children, ...config }) => {
 export default Carousel
 ```
 
-## Documentation
+## Contributing
 
-- [How to Create a Hook](HOW-CREATE-A-HOOK.md)
-- [Contributing](CONTRIBUTING.md)
+- [How to Start Contributing](CONTRIBUTING.md)
+- [How to Create a New Hook](HOW-CREATE-A-HOOK.md)
 
 ## Contributors
 
