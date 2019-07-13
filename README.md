@@ -3,6 +3,8 @@
 </div>
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![Build Status](https://travis-ci.org/devthiago/react-ui-hooks.svg?branch=master)](https://travis-ci.org/devthiago/react-ui-hooks)
+[![Coverage Status](https://coveralls.io/repos/github/devthiago/react-ui-hooks/badge.svg?branch=master)](https://coveralls.io/github/devthiago/react-ui-hooks?branch=master)
 
 Simple repository of React hooks for building UI components
 
