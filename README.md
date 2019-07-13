@@ -2,7 +2,7 @@
   <h1 style="color: #f9ad05;">React UI Hooks</h1>
 </div>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 [![Build Status](https://travis-ci.org/devthiago/react-ui-hooks.svg?branch=master)](https://travis-ci.org/devthiago/react-ui-hooks)
 [![Coverage Status](https://coveralls.io/repos/github/devthiago/react-ui-hooks/badge.svg?branch=master)](https://coveralls.io/github/devthiago/react-ui-hooks?branch=master)
 
@@ -105,7 +105,15 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://thiagoalv.es"><img src="https://avatars0.githubusercontent.com/u/5190217?v=4" width="100px;" alt="Thiago Alves Luiz"/><br /><sub><b>Thiago Alves Luiz</b></sub></a><br /><a href="#infra-devthiago" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/devthiago/react-ui-hooks/commits?author=devthiago" title="Code">💻</a></td><td align="center"><a href="http://lattes.cnpq.br/4287615973321905"><img src="https://avatars3.githubusercontent.com/u/28638133?v=4" width="100px;" alt="João Pedro Raskopf"/><br /><sub><b>João Pedro Raskopf</b></sub></a><br /><a href="#infra-jprask" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/devthiago/react-ui-hooks/commits?author=jprask" title="Code">💻</a></td><td align="center"><a href="https://www.linkedin.com/in/tauan-tathiell/"><img src="https://avatars0.githubusercontent.com/u/16005211?v=4" width="100px;" alt="Tauan Tathiell"/><br /><sub><b>Tauan Tathiell</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=Lukyhenson" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/elainemattos"><img src="https://avatars1.githubusercontent.com/u/10763483?v=4" width="100px;" alt="Elaine Mattos"/><br /><sub><b>Elaine Mattos</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=elainemattos" title="Documentation">📖</a></td></tr></table>
+<table>
+  <tr>
+    <td align="center"><a href="http://thiagoalv.es"><img src="https://avatars0.githubusercontent.com/u/5190217?v=4" width="100px;" alt="Thiago Alves Luiz"/><br /><sub><b>Thiago Alves Luiz</b></sub></a><br /><a href="#infra-devthiago" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/devthiago/react-ui-hooks/commits?author=devthiago" title="Code">💻</a></td>
+    <td align="center"><a href="http://lattes.cnpq.br/4287615973321905"><img src="https://avatars3.githubusercontent.com/u/28638133?v=4" width="100px;" alt="João Pedro Raskopf"/><br /><sub><b>João Pedro Raskopf</b></sub></a><br /><a href="#infra-jprask" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/devthiago/react-ui-hooks/commits?author=jprask" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/tauan-tathiell/"><img src="https://avatars0.githubusercontent.com/u/16005211?v=4" width="100px;" alt="Tauan Tathiell"/><br /><sub><b>Tauan Tathiell</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=Lukyhenson" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/elainemattos"><img src="https://avatars1.githubusercontent.com/u/10763483?v=4" width="100px;" alt="Elaine Mattos"/><br /><sub><b>Elaine Mattos</b></sub></a><br /><a href="https://github.com/devthiago/react-ui-hooks/commits?author=elainemattos" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://gustavofao.com/"><img src="https://avatars3.githubusercontent.com/u/7588480?v=4" width="100px;" alt="Gustavo Fão Valvassori"/><br /><sub><b>Gustavo Fão Valvassori</b></sub></a><br /><a href="#infra-faogustavo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+  </tr>
+</table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
