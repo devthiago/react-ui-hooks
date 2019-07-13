@@ -46,6 +46,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "faogustavo",
+      "name": "Gustavo Fão Valvassori",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7588480?v=4",
+      "profile": "http://gustavofao.com/",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7
